@@ -19,4 +19,8 @@ typeof 0.06
 typeof true
 Array.isarray[()] */
 console.log(typeof eu + typeof 0.06 + typeof true + Array.isArray([]) )
-console.log(Array.isArray([]) == 0) // out 
+console.log(Array.isArray([eu]) == 0) // out 
+let x = 987;
+x+=0 // x = x + 0
+// x = 987 + 0 = 987
+console.log(x);
